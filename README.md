@@ -1,4 +1,3 @@
-@'
 # Subscription Management System
 
 A centralized web application to manage subscription-based products, recurring billing plans, customers, quotations, invoices, taxes, discounts, payments, and reports. Built for SaaS and other recurring-revenue businesses.
