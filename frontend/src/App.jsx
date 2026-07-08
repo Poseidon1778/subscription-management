@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Products from "./pages/Products";
+import Plans from "./pages/Plans";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           >
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/plans" element={<Plans />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -36,4 +38,5 @@ function App() {
 }
 
 export default App;
+
 
