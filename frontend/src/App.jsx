@@ -7,6 +7,8 @@ import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Products from "./pages/Products";
 import Plans from "./pages/Plans";
+import Subscriptions from "./pages/Subscriptions";
+import SubscriptionDetail from "./pages/SubscriptionDetail";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/products" element={<Products />} />
             <Route path="/plans" element={<Plans />} />
+            <Route path="/subscriptions" element={<Subscriptions />} />
+            <Route path="/subscriptions/:id" element={<SubscriptionDetail />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -38,5 +42,6 @@ function App() {
 }
 
 export default App;
+
 
 
