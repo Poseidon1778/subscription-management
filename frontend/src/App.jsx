@@ -14,6 +14,7 @@ import InvoiceDetail from "./pages/InvoiceDetail";
 import Payments from "./pages/Payments";
 import Discounts from "./pages/Discounts";
 import Taxes from "./pages/Taxes";
+import Users from "./pages/Users";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="/payments" element={<Payments />} />
             <Route path="/discounts" element={<Discounts />} />
             <Route path="/taxes" element={<Taxes />} />
+            <Route path="/users" element={<Users />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -52,6 +54,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
