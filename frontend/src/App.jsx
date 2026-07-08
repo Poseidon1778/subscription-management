@@ -16,6 +16,7 @@ import Discounts from "./pages/Discounts";
 import Taxes from "./pages/Taxes";
 import Users from "./pages/Users";
 import Reports from "./pages/Reports";
+import QuotationTemplates from "./pages/QuotationTemplates";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
             <Route path="/taxes" element={<Taxes />} />
             <Route path="/users" element={<Users />} />
             <Route path="/reports" element={<Reports />} />
+            <Route path="/quotation-templates" element={<QuotationTemplates />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -56,6 +58,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
