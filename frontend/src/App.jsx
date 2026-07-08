@@ -12,6 +12,8 @@ import SubscriptionDetail from "./pages/SubscriptionDetail";
 import Invoices from "./pages/Invoices";
 import InvoiceDetail from "./pages/InvoiceDetail";
 import Payments from "./pages/Payments";
+import Discounts from "./pages/Discounts";
+import Taxes from "./pages/Taxes";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
             <Route path="/invoices" element={<Invoices />} />
             <Route path="/invoices/:id" element={<InvoiceDetail />} />
             <Route path="/payments" element={<Payments />} />
+            <Route path="/discounts" element={<Discounts />} />
+            <Route path="/taxes" element={<Taxes />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -48,6 +52,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
