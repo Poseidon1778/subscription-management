@@ -9,6 +9,8 @@ import Products from "./pages/Products";
 import Plans from "./pages/Plans";
 import Subscriptions from "./pages/Subscriptions";
 import SubscriptionDetail from "./pages/SubscriptionDetail";
+import Invoices from "./pages/Invoices";
+import InvoiceDetail from "./pages/InvoiceDetail";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
             <Route path="/plans" element={<Plans />} />
             <Route path="/subscriptions" element={<Subscriptions />} />
             <Route path="/subscriptions/:id" element={<SubscriptionDetail />} />
+            <Route path="/invoices" element={<Invoices />} />
+            <Route path="/invoices/:id" element={<InvoiceDetail />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -42,6 +46,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
