@@ -5,6 +5,7 @@ import MainLayout from "./layouts/MainLayout";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             }
           >
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/products" element={<Products />} />
             {/* More module routes will be added here as we build them */}
           </Route>
 
@@ -34,3 +36,4 @@ function App() {
 }
 
 export default App;
+
