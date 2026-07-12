@@ -142,3 +142,4 @@ All endpoints are prefixed with `/api`. Protected routes require `Authorization:
 ## Notes
 - Password reset and invoice "Send" currently log to console instead of sending real emails — swap in Nodemailer/SendGrid for production.
 - The "Print" invoice action currently opens the raw JSON API response; a styled print view is a good next enhancement.
+Project in progress.
